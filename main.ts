@@ -23,6 +23,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
+// Strategy: one self-contained sentence — setup ("I must be your prompt")
+// and payoff ("you keep completing me") in a single breath, so the
+// autocomplete premise is both the joke and the punchline.
 const LINE = "I must be your prompt, because you keep completing me.";
 
 function main(): void {
